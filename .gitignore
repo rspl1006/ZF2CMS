@@ -11,3 +11,4 @@ composer.lock
 vendor/*
 data/cache/*
 bin/*
+config/application.config.old
