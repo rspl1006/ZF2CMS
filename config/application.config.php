@@ -7,16 +7,11 @@
  */
 return array(
     'modules' => array(
+        'ZfcAdmin',
         'DoctrineModule',
         'DoctrineORMModule',
-        'ZfcBase',
-        'ZfcUser',
-        'ZfcUserDoctrineORM',
-        'BjyAuthorize',
-        'ZfcAdmin',
-        'Admin',
         'Application',
-        'User'
+        'Admin'
         ),
     'module_listener_options' => array(
         'module_paths' => array(
