@@ -8,6 +8,7 @@
 return array(
     'modules' => array(
         'ZfcAdmin',
+        'ZfcTwig',
         'DoctrineModule',
         'DoctrineORMModule',
         'Application',
