@@ -7,12 +7,12 @@
  */
 return array(
     'modules' => array(
-        'ZfcAdmin',
         'ZfcTwig',
         'DoctrineModule',
         'DoctrineORMModule',
         'Application',
-        'Admin'
+        'Admin',
+        'User'
         ),
     'module_listener_options' => array(
         'module_paths' => array(
