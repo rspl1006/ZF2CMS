@@ -2,12 +2,12 @@
 return array(
     'router' => array(
         'routes' => array(
-            'admin' => array(
+            'crud' => array(
                 'type' => 'Zend\Mvc\Router\Http\Literal',
                 'options' => array(
-                    'route'    => '/admin',
+                    'route'    => '/crud',
                     'defaults' => array(
-                        'controller' => 'Admin/Controller/Index',
+                        'controller' => 'CRUD/Controller/Index',
                         'action'     => 'index',
                     ),
                 ),
@@ -16,7 +16,7 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'Admin\Controller\Index' => 'Admin\Controller\IndexController',
+            'CRUD\Controller\Index' => 'CRUD\Controller\IndexController',
         ),
     ),
     'view_manager' => array(
@@ -26,7 +26,7 @@ return array(
         'not_found_template'       => 'error/404',
         'exception_template'       => 'error/index',
         'template_map' => array(
-            'admin/index/index'    => __DIR__ . '/../view/admin/index/index.html.twig',
+            'crud/index/index'    => __DIR__ . '/../view/crud/index/index.html.twig',
         ),
         'template_path_stack' => array(
             __DIR__ . '/../view',

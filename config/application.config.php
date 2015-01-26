@@ -12,7 +12,8 @@ return array(
         'DoctrineORMModule',
         'Application',
         'Admin',
-        'User'
+        'User',
+        'CRUD'
         ),
     'module_listener_options' => array(
         'module_paths' => array(
